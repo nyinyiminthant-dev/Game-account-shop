@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameAccountShop.Domain", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameAccountShop.Database", "..\GameAccountShop.Database\GameAccountShop.Database.csproj", "{C286BA0B-963D-422C-A424-8C8689A7F495}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameAccountShop.Share", "..\Share\GameAccountShop.Share.csproj", "{A41226BD-5DD3-4895-8381-DBD030F6681F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C286BA0B-963D-422C-A424-8C8689A7F495}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C286BA0B-963D-422C-A424-8C8689A7F495}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C286BA0B-963D-422C-A424-8C8689A7F495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41226BD-5DD3-4895-8381-DBD030F6681F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41226BD-5DD3-4895-8381-DBD030F6681F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41226BD-5DD3-4895-8381-DBD030F6681F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41226BD-5DD3-4895-8381-DBD030F6681F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
