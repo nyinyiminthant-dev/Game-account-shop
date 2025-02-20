@@ -13,7 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\..\GameAccountShop.Database\GameAccountShop.Database.csproj" />
+    <ProjectReference Include="..\..\GameAccountShop.Domain\GameAccountShop.Domain.csproj" />
   </ItemGroup>
 
 </Project>
