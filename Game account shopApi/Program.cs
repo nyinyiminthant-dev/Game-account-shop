@@ -21,6 +21,8 @@ builder.Services.Configure<JsonOptions>(options =>
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -29,7 +31,6 @@ builder.AddGameAccountShopFeatures();
 var app = builder.Build();
 
 app.UseCors("AllowAll");
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
